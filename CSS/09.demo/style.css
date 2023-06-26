@@ -1,0 +1,30 @@
+*{
+    margin: 0;
+    padding: 0;
+    
+}
+header{
+    background-color: orange;
+    height: 10vh;
+
+}
+main{
+    background-color:cadetblue ;
+min-height: 80;
+
+}
+footer{
+
+    background-color: tomato;
+    height: 10vh;
+}
+h1{
+    
+text-align: center;
+padding-top: 16px;
+}
+
+p{
+    text-align: center;
+    padding-top: 32px;
+}

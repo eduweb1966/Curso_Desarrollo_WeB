@@ -1,0 +1,33 @@
+.box {
+    width:   100 px;
+    height: 100 px;
+    background-color:orange;
+    border : 1px solid red;
+}
+
+.container{
+    width:   100 px;
+    height: 600 px;
+    background-color: blue;
+    
+}
+.container > section { 
+    width :   50%px;
+    height: 100px;
+    background-color:crimson;
+}
+.container > section >  p{
+    font-size: 1 em;
+}
+.article {
+
+    height: 20 vh;
+    background-color: cadetblue;
+}
+:root {
+
+    font-size: 16;
+}
+.p {
+    font-size: 1 rem;
+}
