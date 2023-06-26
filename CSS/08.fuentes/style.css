@@ -1,11 +1,15 @@
 p {
-    font-family:'Belanosima', sans-serif;
-    font-size: 20px;
-    font-weight:60px ;
-    font-style: normal;
-}
-@font-face { /* se descarga  el font y se pone en la carpeta fonts para opoder utilizar */
-    font-family: "Star Wars";
-    src: url(./assets/fonts/StarWars.otf);
+  font-family: Arial, Helvetica, sans-serif;
+  font-size: 20px;
+  font-weight: 900;
+  font-style: italic;
 }
 
+@font-face {
+  font-family: "Star Wars";
+  src: url(./assets/fonts/Aurebesh.otf);
+}
+
+h1 {
+  font-family: "Star Wars";
+}

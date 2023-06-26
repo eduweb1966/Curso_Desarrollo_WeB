@@ -1,21 +1,20 @@
-:root{
-    --primary :#232946 ;
-    --secondary:#b8c1ec;
-    --tertiary:#939393;
-    --heading-size: 25pox;
-}
-body{
-    background-color: var(--primary);
-    color: var(--tertiary);
-}
-h1{
-
-color: var(--secondary);
-font-size: var(--heading-size);
-
+:root {
+  --primary: #232946;
+  --secondary: #e78e12;
+  --tertiary: #939393;
+  --heading-size: 25px;
 }
 
-p{
+body {
+  background-color: var(--primary);
+  color: var(--tertiary);
+}
 
-color: var();
+h1 {
+  color: var(--secondary);
+  font-size: var(--heading-size);
+}
+
+p {
+  color: var(--tertiary);
 }
