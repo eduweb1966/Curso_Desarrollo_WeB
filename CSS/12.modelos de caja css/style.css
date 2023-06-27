@@ -1,0 +1,12 @@
+box{
+    width:300px ;
+    min-height: 300px;
+    padding: 20px;
+    border:2px solid red;
+    border-radius: 15px;
+    background-color: cadetblue;
+    overflow: auto;
+    box-shadow: 20px 20px plum;
+}
+
+
