@@ -31,14 +31,12 @@
     text-align: center;
     }
     nav a {
-    
-    󾓫 Pseudoclases y Pseudoelementos CSS 👻🎨 23
-    
     display: block;
     padding: 20px 0;
     color: white;
     text-decoration: none;
     }
+
     /*HOVER Y FOCUS AL NAV */
     main {
     padding: 20px;
@@ -60,14 +58,31 @@
     }
     /* SUSITUIR EL PUNTO DE LA LISTA POR LA X */
     section a {
-    color: #333;
+    color: #dc3636;
     text-decoration: none;
     font-weight: bold;
-    font-size: 1.2em;
+    font-size: 1.4em;
     }
+    a::before {
+        content: "🅧";
+        padding-right: 4px;
+        color: orange;
+        list-style-type: none;
+    }
+
+    li > a{
+            width: 100px;
+            height: 100px;
+             
+            }
+    li>a:hover {
+            background-color: crimson;
+            }
+    
     /* AÑADIR CORCHETES A LOS ENLACES */
     /* AÑADIR HOVER A LOS ENLACES */
     /* AÑADIR FOCUS A LOS ENLACES */
+    
     footer {
     background-color: #333;
     color: white;

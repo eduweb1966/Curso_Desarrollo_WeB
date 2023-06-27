@@ -1,27 +1,36 @@
-.box{
+body {
+    height: 200vh;
+  }
+  
+  .box {
     width: 200px;
     height: 200px;
     background-color: brown;
     border: 10px solid black;
-}
-.relative{
+    color: white;
+    font-weight: 900;
+  }
+  
+  .relative {
     position: relative;
-    right: 100px;
-    left: 1000px;
-}
-.absolute {
- position: absolute;
- right: 0;
- top: 0;
-}
-.fixed{
-
-    position: fixed;
-    top: 400px;
+    left: 100px;
+    top: 100px;
+  }
+  
+  .absolute {
+    position: absolute;
     right: 0;
-}
-nav{
+    top: 0;
+  }
+  
+  .fixed {
+    position: fixed;
+    bottom: 0;
+    right: 0;
+  }
+  
+  nav {
     background-color: orange;
     position: sticky;
     z-index: 1;
-}
+  }

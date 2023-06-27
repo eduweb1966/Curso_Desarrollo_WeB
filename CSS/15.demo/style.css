@@ -1,63 +1,88 @@
 :root{
     --primary:rgb(26,26,26);
     --secondary:rgb(222,222,222);
-    --tertiary: rgb();
+    --tertiary: rgb(162,162,162);
     font-family: Arial, Helvetica, sans-serif;
 
 }
 
 * {
-    padding: ;
-}
-body{
-    background-color: ;
-
-}
-header{
-    background-color: ;
-}
-
-header > imag{
+    margin: 0;
+    padding: 0;
+  }
+  
+  body {
+    background-color: var(--primary);
+    color: var(--secondary);
+  }
+  
+  header {
+    background-color: orange;
+    padding: 20px;
+  }
+  
+  header > img {
     height: 80px;
     width: auto;
+    /* Cuando activamos display block podemos aplicarle el margen automatico por los lados */
     display: block;
-}
-    a{
-        color: ;
-    }
-
-nav{
-    border: 2px solid red;
-    display: block;
-}
-nav> ul>li {
+    margin: 10px auto;
+  }
+  
+  a {
+    color: var(--tertiary);
+    text-decoration: none;
+    text-transform: uppercase;
+    font-weight: 500;
+  }
+  
+  a:hover {
+    color: var(--secondary);
+    text-decoration: underline;
+  }
+  
+  nav > ul > li {
     display: inline;
-    padding: 0px  16px;
-}
-nav> ul {
-text-align: center;
-padding: 10px 0px;
-}
-main{
+    padding: 0 6px;
+  }
+  
+  nav > ul {
+    text-align: center;
+    padding: 10px 0;
+  }
+  
+  main {
     background-color: var(--secondary);
     color: var(--primary);
-}
-main > ul>li{
-    display: :inline-block;
+    padding: 10px;
+  }
+  
+  main > ul {
+    text-align: center;
+  }
+  
+  main > ul > li {
+    display: inline-block;
     font-size: 11px;
-    fonty-weihg
-}
-main figure img{
+    font-weight: 700;
+    margin: 10px;
+  }
+  
+  main figure img {
     width: 240px;
     height: auto;
-}
-main figure figcaption{
- margin-top: 10px;
-}
-logo{
+    box-shadow: rgba(38, 57, 77, 0.733) 0px 20px 30px -10px;
+  }
+  
+  main figure figcaption {
+    margin-top: 10px;
+  }
+  
+  .logo {
     width: 80px;
     height: 80px;
     position: fixed;
     bottom: 10px;
     right: 10px;
-}
+  }
+     
