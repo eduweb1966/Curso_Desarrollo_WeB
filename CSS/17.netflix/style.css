@@ -38,7 +38,7 @@
   
   header {
     height: 100vh;
-    background-image: url(./assets/images/banner.png);
+    background-image: url(./assets/icons/images/banner.png);
     background-size: cover;
     background-position: center;
   }
