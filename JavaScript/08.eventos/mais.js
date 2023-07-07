@@ -1,0 +1,1 @@
+const myBtn= document.querySelector("myBtn")
