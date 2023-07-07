@@ -1,12 +1,12 @@
-//recuperAMOS EL BOTON 
-const myBtn= document.querySelector("#myBtn")
-//AÑADIRLE UN ESCUCHADOR DE EVENTOS
-myBtn.addEventListener("click", (ev)=>{
-    console.log(ev);
+//Recuperamos el botón
+const myBtn = document.querySelector("#myBtn");
+//Añadirle un escuchador de eventos
+myBtn.addEventListener("click", (ev) => {
+  console.log(ev);
 });
 
-// recuperamos el input
-const myInput = document.querySelectorAll("#myBtn")
-myBtn.addEventListener("input",(ev) =>{
-
+//Recuperamos el input
+const myInput = document.querySelector("#myInput");
+myInput.addEventListener("input", (ev) => {
+  console.log(ev.target.value);
 });
