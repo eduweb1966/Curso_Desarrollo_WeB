@@ -17,5 +17,6 @@ const main = document.querySelector("main")
 const more-btn = document.querySelector("#more-btn")
 // cuandfo hagamos cvlick en el bot on more...
 themeBtn.addEventListener("click", ()=>{
+
 const para = document.querySelector("main")
-)}
+ })
