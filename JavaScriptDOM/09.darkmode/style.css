@@ -1,0 +1,8 @@
+:root{
+    --primary: 
+    --secundary:
+}
+body{
+    background-color: :var(--secondary);
+}
+nav
